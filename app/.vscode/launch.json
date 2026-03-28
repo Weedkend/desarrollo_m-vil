@@ -1,0 +1,92 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app (Flutter Windows)",
+            "program": "lib/main.dart",
+            "deviceId": "windows",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app (Flutter Windows)",
+            "program": "lib/main.dart",
+            "deviceId": "windows",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app (Flutter profile mode)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app (Flutter)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app (Flutter Windows)",
+            "program": "lib/main.dart",
+            "deviceId": "windows",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
